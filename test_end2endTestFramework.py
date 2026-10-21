@@ -35,4 +35,4 @@ def test_e2e(browserInstance):
     successText = driver.find_element(By.CLASS_NAME, "alert-success").text
     assert successText.__contains__("Success")
     assert "Success! Thank you!" in successText
-    time.sleep(10)
+    time.sleep(5)
